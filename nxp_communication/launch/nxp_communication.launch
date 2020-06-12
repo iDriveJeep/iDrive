@@ -1,0 +1,10 @@
+<launch>
+
+    <!-- Launch ROS navigation_control Node -->
+    <node pkg="nxp_communication" type="nxp_communication_node"
+          name="nxp_communication_node" output="screen"
+          clear_params="true" required="true">
+          	
+    </node>
+
+</launch>

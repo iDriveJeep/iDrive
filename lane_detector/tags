@@ -1,0 +1,72 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.9~svn20110310	//
+amarillo_altos1	./scripts/camara.py	/^amarillo_altos1 = np.array([60, 255, 255])$/;"	v
+amarillo_altos2	./scripts/camara.py	/^amarillo_altos2 = np.array([215, 255, 255])$/;"	v
+amarillo_bajos1	./scripts/camara.py	/^amarillo_bajos1 = np.array([13, 50, 50])$/;"	v
+amarillo_bajos2	./scripts/camara.py	/^amarillo_bajos2 = np.array([189, 50, 50])$/;"	v
+avgValue	./scripts/camara.py	/^avgValue=[]$/;"	v
+avgValue	./scripts/camara_pista.py	/^avgValue=[]$/;"	v
+avg_angles	./scripts/functions/utils.py	/^def avg_angles(warped):$/;"	f
+blue	./scripts/lane_detector_impl.py	/^blue = (255, 0, 0)$/;"	v
+bottom_left	./scripts/camara_pista.py	/^bottom_left = 	(0, 1)$/;"	v
+bottom_left	./scripts/functions/utils.py	/^bottom_left = (0.05, 0.9)$/;"	v
+bottom_right	./scripts/camara_pista.py	/^bottom_right = 	(.8, 1)$/;"	v
+bottom_right	./scripts/functions/utils.py	/^bottom_right = (.94, 0.9)$/;"	v
+camara	./scripts/camara.py	/^camara = "carriles7.mp4"$/;"	v
+camara	./scripts/lane_detector_impl.py	/^camara = 'project_video.mp4'$/;"	v
+draw_lanes	./scripts/functions/utils.py	/^def draw_lanes(img, left_fit, right_fit):$/;"	f
+get_curve	./scripts/functions/utils.py	/^def get_curve(img, leftx, rightx):$/;"	f
+get_hist	./scripts/functions/utils.py	/^def get_hist(img):$/;"	f
+green	./scripts/lane_detector_impl.py	/^green = (0, 255, 0)$/;"	v
+h	./scripts/hsv.py	/^    h = hue*np.ones((500,500), dtype=np.uint8)$/;"	v
+h_array	./scripts/hsv.py	/^h_array = np.arange(lower_b[0], upper_b[0]+1)$/;"	v
+high_blue	./scripts/camara_pista.py	/^high_blue = np.array([126, 255, 255])$/;"	v
+high_blue2	./scripts/camara_pista.py	/^high_blue2 = np.array([281, 255, 255])$/;"	v
+hsv_color	./scripts/hsv.py	/^    hsv_color = cv2.merge((h, s_gradient, v_gradient))$/;"	v
+image2_callback	./scripts/camara.py	/^def image2_callback (msg):$/;"	f
+image2_callback	./scripts/camara_pista.py	/^def image2_callback (msg):$/;"	f
+image_callback	./scripts/lane_detector_impl.py	/^def image_callback(msg):$/;"	f
+image_roi	./scripts/functions/utils.py	/^def image_roi(img, roi_pts):$/;"	f
+image_topic	./scripts/lane_detector_impl.py	/^image_topic = "\/videofile\/image_raw"$/;"	v
+inv_perspective_warp	./scripts/functions/utils.py	/^def inv_perspective_warp(img, $/;"	f
+kernel	./scripts/lane_detector_impl.py	/^kernel = np.ones((3,3),np.uint8)$/;"	v
+low_blue	./scripts/camara_pista.py	/^low_blue = np.array([94, 80, 2])$/;"	v
+low_blue2	./scripts/camara_pista.py	/^low_blue2 = np.array([270, 80, 2])$/;"	v
+lower_b	./scripts/hsv.py	/^lower_b = np.array([0, 100, 50])$/;"	v
+mapping	./scripts/functions/utils.py	/^def mapping(left, right, point=0.5):$/;"	f
+output_image_pub	./scripts/camara.py	/^output_image_pub = rospy.Publisher('\/lane_detector\/out_image', Image, queue_size=2)$/;"	v
+output_image_pub	./scripts/camara_pista.py	/^output_image_pub = rospy.Publisher('\/lane_detector\/out_image', Image, queue_size=2)$/;"	v
+output_image_pub	./scripts/lane_detector_impl.py	/^output_image_pub = rospy.Publisher('\/lane_detector\/out_image', Image, queue_size=2)$/;"	v
+perspective_warp	./scripts/functions/utils.py	/^def perspective_warp(img, $/;"	f
+pipeline	./scripts/functions/utils.py	/^def pipeline(img, s_thresh=(100, 255), sx_thresh=(15, 255)):$/;"	f
+pts	./scripts/camara.py	/^pts= np.array([[0, 0], [0, 720], [1280, 720], [1280, 0]])$/;"	v
+pts	./scripts/camara.py	/^pts= np.array([[100, 320], [240, 220], [420, 220], [560, 320]])$/;"	v
+pub_steer	./scripts/camara_pista.py	/^	pub_steer = rospy.Publisher (rospy.get_param("~subscriber_tropic_steer"),Float32,queue_size = 10)$/;"	v
+punto	./scripts/functions/utils.py	/^punto = np.float32([top_left,top_right,bottom_left,bottom_right])$/;"	v
+puntos	./scripts/camara.py	/^puntos= np.array([[0, 0], [0, 360], [640, 360], [640, 0]])#sin recorte$/;"	v
+puntos	./scripts/camara_pista.py	/^puntos = np.array([top_right,top_left,bottom_left,bottom_right])$/;"	v
+red	./scripts/lane_detector_impl.py	/^red = (0, 0, 255)$/;"	v
+rgb_color	./scripts/hsv.py	/^    rgb_color = cv2.cvtColor(hsv_color, cv2.COLOR_HSV2BGR)$/;"	v
+rojo_altos1	./scripts/camara.py	/^rojo_altos1 = np.array([12, 255, 255])$/;"	v
+rojo_altos1	./scripts/camara_pista.py	/^rojo_altos1 = np.array([12, 255, 255])$/;"	v
+rojo_altos2	./scripts/camara.py	/^rojo_altos2 = np.array([188, 255, 255])$/;"	v
+rojo_altos2	./scripts/camara_pista.py	/^rojo_altos2 = np.array([188, 255, 255])$/;"	v
+rojo_bajos1	./scripts/camara.py	/^rojo_bajos1 = np.array([0, 50, 50])$/;"	v
+rojo_bajos1	./scripts/camara_pista.py	/^rojo_bajos1 = np.array([0, 50, 50])$/;"	v
+rojo_bajos2	./scripts/camara.py	/^rojo_bajos2 = np.array([160, 50, 50])$/;"	v
+rojo_bajos2	./scripts/camara_pista.py	/^rojo_bajos2 = np.array([160, 50, 50])$/;"	v
+s_gradient	./scripts/hsv.py	/^s_gradient = np.ones((500,1), dtype=np.uint8)*np.linspace(lower_b[1], upper_b[1], 500, dtype=np.uint8)$/;"	v
+sliding_window	./scripts/functions/utils.py	/^def sliding_window(img, nwindows=20, margin=30, minpix = 0.1, draw_windows=True):$/;"	f
+sliding_window_pub	./scripts/lane_detector_impl.py	/^sliding_window_pub = rospy.Publisher('\/lane_detector\/sliding_window_image', Image, queue_size=2)$/;"	v
+steer_msg	./scripts/camara_pista.py	/^steer_msg = Float32()$/;"	v
+top_left	./scripts/camara_pista.py	/^top_left = 		(0, 0.5)$/;"	v
+top_left	./scripts/functions/utils.py	/^top_left = (0.28,0.6)$/;"	v
+top_right	./scripts/camara_pista.py	/^top_right = 	(0.8, 0.5)$/;"	v
+top_right	./scripts/functions/utils.py	/^top_right = (0.7,0.6)$/;"	v
+upper_b	./scripts/hsv.py	/^upper_b = np.array([360, 255, 255])$/;"	v
+v_gradient	./scripts/hsv.py	/^v_gradient = np.rot90(np.ones((500,1), dtype=np.uint8)*np.linspace(lower_b[1], upper_b[1], 500, dtype=np.uint8))$/;"	v
+warped_image_pub	./scripts/lane_detector_impl.py	/^warped_image_pub = rospy.Publisher('\/lane_detector\/warped_image', Image, queue_size=2)$/;"	v

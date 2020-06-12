@@ -1,0 +1,20 @@
+<?xml version="1.0"?>
+<launch>
+
+    <!-- INITIALIZE ROS_YOLOV3-->
+ 
+    <!-- <include file="$(find ros_yolov3)/launch/ros_yolov3.launch"/> -->
+
+    <!-- INITIALIZE LANE DETECTOR NODE-->
+    <!--<include file="$(find lane_detector)/launch/lane_detector.launch"/>-->
+
+    <!-- INITIALIZE NAVIGATION CONTROL NODE-->
+    <include file="$(find navigation_control)/launch/navigation_control.launch"/>
+
+    <!-- INITIALIZE LIDARLITE Node -->
+    <!--<include file="$(find lidarlite_node)/launch/lidarlite_node.launch"/>-->
+
+    <!-- INITIALIZE NXP_COMMUNICATION -->
+    <include file="$(find nxp_communication)/launch/nxp_communication.launch"/>
+
+</launch>

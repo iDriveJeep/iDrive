@@ -1,0 +1,10 @@
+<launch>
+
+    <!-- Launch ROS lidarlite_node Node -->
+    <node pkg="lidarlite_node" type="LidarLite_Communication_node"
+          name="LidarLite_Communication_nodee" output="screen"
+          clear_params="true" required="true">
+          	
+    </node>
+
+</launch>

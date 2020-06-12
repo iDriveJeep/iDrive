@@ -1,0 +1,10 @@
+<launch>
+
+    <!-- Launch ROS line_detector Node -->
+    <node pkg="ros_yolov3" type="ros_yolov3"
+          name="ros_yolov3" output="screen"
+          clear_params="true" required="true">
+        <!-- <rosparam command="load" file="$(find ros_yolov3)libdarknet/cfg/yolov3-tiny.cfg"/> -->
+    </node>
+
+</launch>

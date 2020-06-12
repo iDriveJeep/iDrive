@@ -1,0 +1,10 @@
+<launch>
+
+    <!-- Launch ROS navigation_control Node -->
+    <node pkg="navigation_control" type="navigation_control"
+          name="navigation_control" output="screen"
+          clear_params="true" required="true">
+          	
+    </node>
+
+</launch>

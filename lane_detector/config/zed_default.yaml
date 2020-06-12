@@ -1,0 +1,4 @@
+subscriber_topic_1: /zed/rgb/image_raw_color
+subscriber_topic_2: /zed/left/image_rect_color
+subscriber_tropic_steer: /lane_detector/steer_angle
+subscriber_topic_error_lat: /lane_detector/error_lat

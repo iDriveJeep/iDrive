@@ -1,0 +1,14 @@
+<?xml version="1.0"?>
+<launch>
+
+    <!-- Launch Video File Publisher-->
+    <include file="$(find lane_detector)/launch/hardware/video_file.launch"/>
+
+    <!-- Launch ROS line_detector Node -->
+    <node pkg="lane_detector" type="lane_detector_impl.py"
+          name="lane_detector_node" output="screen"
+          clear_params="true" required="true">
+        <rosparam command="load" file="$(find lane_detector)/config/video_default.yaml"/>
+    </node>
+
+</launch>
